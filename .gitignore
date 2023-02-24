@@ -2,3 +2,5 @@
 venv
 __py*
 */tweets*
+*/*.csv
+.csv
