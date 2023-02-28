@@ -5,7 +5,7 @@ from transform import transform_data
 
 # Creating list to append tweet data to
 def extract_data():
-  
+  tweets_list = []
     # scrape tweets and append to a list
   for i,tweet in enumerate(sntwitter.TwitterSearchScraper('Chatham House since:2023-01-14').get_items()):
     if i>1000:
